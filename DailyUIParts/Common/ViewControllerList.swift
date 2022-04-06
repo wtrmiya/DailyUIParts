@@ -10,6 +10,7 @@ import UIKit
 
 final class ViewControllerList {
     static let viewControllerList:[String:UIViewController] = [
-        String(describing: NSAttributedString01ViewController.self):NSAttributedString01ViewController()
+        String(describing: NSAttributedString01ViewController.self):NSAttributedString01ViewController(),
+        String(describing: NSAttributedString02ViewController.self):NSAttributedString02ViewController(),
     ]
 }

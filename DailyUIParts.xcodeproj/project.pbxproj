@@ -15,6 +15,8 @@
 		865AB35F27FBB5C000BB315D /* ViewControllerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865AB35E27FBB5C000BB315D /* ViewControllerList.swift */; };
 		865AB36127FBB5DB00BB315D /* PreviewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865AB36027FBB5DB00BB315D /* PreviewWrapper.swift */; };
 		865AB36527FBB6C300BB315D /* NSAttributedString01ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865AB36427FBB6C300BB315D /* NSAttributedString01ViewController.swift */; };
+		8691AB5E27FCFB57009F407D /* NSAttributedString02ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8691AB5D27FCFB57009F407D /* NSAttributedString02ViewController.swift */; };
+		8691AB6027FD00F1009F407D /* NSAttributedString02ViewController+AttributesExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8691AB5F27FD00F1009F407D /* NSAttributedString02ViewController+AttributesExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		865AB35E27FBB5C000BB315D /* ViewControllerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerList.swift; sourceTree = "<group>"; };
 		865AB36027FBB5DB00BB315D /* PreviewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewWrapper.swift; sourceTree = "<group>"; };
 		865AB36427FBB6C300BB315D /* NSAttributedString01ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedString01ViewController.swift; sourceTree = "<group>"; };
+		8691AB5D27FCFB57009F407D /* NSAttributedString02ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedString02ViewController.swift; sourceTree = "<group>"; };
+		8691AB5F27FD00F1009F407D /* NSAttributedString02ViewController+AttributesExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAttributedString02ViewController+AttributesExample.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,7 @@
 		865AB36327FBB5F300BB315D /* DailyPractice */ = {
 			isa = PBXGroup;
 			children = (
+				8691AB5C27FCFB45009F407D /* 20220406 */,
 				865AB36627FBC40E00BB315D /* 20220405 */,
 			);
 			path = DailyPractice;
@@ -103,6 +108,15 @@
 				865AB36427FBB6C300BB315D /* NSAttributedString01ViewController.swift */,
 			);
 			path = 20220405;
+			sourceTree = "<group>";
+		};
+		8691AB5C27FCFB45009F407D /* 20220406 */ = {
+			isa = PBXGroup;
+			children = (
+				8691AB5D27FCFB57009F407D /* NSAttributedString02ViewController.swift */,
+				8691AB5F27FD00F1009F407D /* NSAttributedString02ViewController+AttributesExample.swift */,
+			);
+			path = 20220406;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,7 +193,9 @@
 				865AB36127FBB5DB00BB315D /* PreviewWrapper.swift in Sources */,
 				865AB34527FBB52000BB315D /* AppDelegate.swift in Sources */,
 				865AB35F27FBB5C000BB315D /* ViewControllerList.swift in Sources */,
+				8691AB6027FD00F1009F407D /* NSAttributedString02ViewController+AttributesExample.swift in Sources */,
 				865AB36527FBB6C300BB315D /* NSAttributedString01ViewController.swift in Sources */,
+				8691AB5E27FCFB57009F407D /* NSAttributedString02ViewController.swift in Sources */,
 				865AB35A27FBB57D00BB315D /* MainListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
