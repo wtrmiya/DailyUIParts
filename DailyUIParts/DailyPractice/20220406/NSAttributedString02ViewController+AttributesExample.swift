@@ -31,4 +31,10 @@ extension NSAttributedString02ViewController {
         
         return string
     }
+    
+    func testBackGroundColor() -> NSAttributedString {
+        let string = NSMutableAttributedString(string: "SALE 30% OFF")
+        string.addAttribute(.backgroundColor, value: UIColor.green, range: NSRange(5...7))
+        return string
+    }
 }
