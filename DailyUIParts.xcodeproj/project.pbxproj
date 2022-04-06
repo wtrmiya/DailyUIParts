@@ -30,6 +30,7 @@
 		865AB35E27FBB5C000BB315D /* ViewControllerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerList.swift; sourceTree = "<group>"; };
 		865AB36027FBB5DB00BB315D /* PreviewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewWrapper.swift; sourceTree = "<group>"; };
 		865AB36427FBB6C300BB315D /* NSAttributedString01ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedString01ViewController.swift; sourceTree = "<group>"; };
+		865AFF7227FD77F80080FB5F /* ForPractice.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ForPractice.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		8691AB5D27FCFB57009F407D /* NSAttributedString02ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedString02ViewController.swift; sourceTree = "<group>"; };
 		8691AB5F27FD00F1009F407D /* NSAttributedString02ViewController+AttributesExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAttributedString02ViewController+AttributesExample.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				865AB34427FBB52000BB315D /* AppDelegate.swift */,
+				865AFF7127FD77D00080FB5F /* Playground */,
 				865AB35D27FBB5AE00BB315D /* Common */,
 				865AB35827FBB56800BB315D /* MainListViewController */,
 				865AB36327FBB5F300BB315D /* DailyPractice */,
@@ -108,6 +110,14 @@
 				865AB36427FBB6C300BB315D /* NSAttributedString01ViewController.swift */,
 			);
 			path = 20220405;
+			sourceTree = "<group>";
+		};
+		865AFF7127FD77D00080FB5F /* Playground */ = {
+			isa = PBXGroup;
+			children = (
+				865AFF7227FD77F80080FB5F /* ForPractice.playground */,
+			);
+			path = Playground;
 			sourceTree = "<group>";
 		};
 		8691AB5C27FCFB45009F407D /* 20220406 */ = {
