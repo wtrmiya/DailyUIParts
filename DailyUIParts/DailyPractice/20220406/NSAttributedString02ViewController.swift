@@ -98,6 +98,7 @@ final class NSAttributedString02ViewController:UIViewController {
         self.pickerViewContents = [
             "attachment":testAttachment,
             "backgroundColor":testBackGroundColor,
+            "baselineOffset":testBaselineOffset,
         ]
         
         self.pickerViewKeyList = Array(pickerViewContents.keys)

@@ -37,4 +37,17 @@ extension NSAttributedString02ViewController {
         string.addAttribute(.backgroundColor, value: UIColor.green, range: NSRange(5...7))
         return string
     }
+    
+    func testBaselineOffset() -> NSAttributedString {
+        let string = NSMutableAttributedString(string:"good morning")
+        string.addAttribute(.baselineOffset, value: 5, range: NSRange(location: 5, length: 1))
+        string.addAttribute(.baselineOffset, value: 4, range: NSRange(location: 6, length: 1))
+        string.addAttribute(.baselineOffset, value: 3, range: NSRange(location: 7, length: 1))
+        string.addAttribute(.baselineOffset, value: 2, range: NSRange(location: 8, length: 1))
+        string.addAttribute(.baselineOffset, value: 1, range: NSRange(location: 9, length: 1))
+        string.addAttribute(.baselineOffset, value: 0, range: NSRange(location: 10, length: 1))
+        string.addAttribute(.baselineOffset, value: -1, range: NSRange(location: 11, length: 1))
+        
+        return string
+    }
 }
