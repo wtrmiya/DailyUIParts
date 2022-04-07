@@ -15,6 +15,8 @@
 		865AB35F27FBB5C000BB315D /* ViewControllerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865AB35E27FBB5C000BB315D /* ViewControllerList.swift */; };
 		865AB36127FBB5DB00BB315D /* PreviewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865AB36027FBB5DB00BB315D /* PreviewWrapper.swift */; };
 		865AB36527FBB6C300BB315D /* NSAttributedString01ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865AB36427FBB6C300BB315D /* NSAttributedString01ViewController.swift */; };
+		867A96D027FF81B9008C4903 /* UISlider01ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867A96CF27FF81B9008C4903 /* UISlider01ViewController.swift */; };
+		867A96D227FF8326008C4903 /* CustomizedSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867A96D127FF8326008C4903 /* CustomizedSlider.swift */; };
 		8691AB5E27FCFB57009F407D /* NSAttributedString02ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8691AB5D27FCFB57009F407D /* NSAttributedString02ViewController.swift */; };
 		8691AB6027FD00F1009F407D /* NSAttributedString02ViewController+AttributesExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8691AB5F27FD00F1009F407D /* NSAttributedString02ViewController+AttributesExample.swift */; };
 /* End PBXBuildFile section */
@@ -31,6 +33,8 @@
 		865AB36027FBB5DB00BB315D /* PreviewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewWrapper.swift; sourceTree = "<group>"; };
 		865AB36427FBB6C300BB315D /* NSAttributedString01ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedString01ViewController.swift; sourceTree = "<group>"; };
 		865AFF7227FD77F80080FB5F /* ForPractice.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ForPractice.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		867A96CF27FF81B9008C4903 /* UISlider01ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISlider01ViewController.swift; sourceTree = "<group>"; };
+		867A96D127FF8326008C4903 /* CustomizedSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizedSlider.swift; sourceTree = "<group>"; };
 		8691AB5D27FCFB57009F407D /* NSAttributedString02ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedString02ViewController.swift; sourceTree = "<group>"; };
 		8691AB5F27FD00F1009F407D /* NSAttributedString02ViewController+AttributesExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAttributedString02ViewController+AttributesExample.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -98,6 +102,7 @@
 		865AB36327FBB5F300BB315D /* DailyPractice */ = {
 			isa = PBXGroup;
 			children = (
+				867A96CE27FF80B7008C4903 /* 20220408 */,
 				8691AB5C27FCFB45009F407D /* 20220406 */,
 				865AB36627FBC40E00BB315D /* 20220405 */,
 			);
@@ -118,6 +123,15 @@
 				865AFF7227FD77F80080FB5F /* ForPractice.playground */,
 			);
 			path = Playground;
+			sourceTree = "<group>";
+		};
+		867A96CE27FF80B7008C4903 /* 20220408 */ = {
+			isa = PBXGroup;
+			children = (
+				867A96CF27FF81B9008C4903 /* UISlider01ViewController.swift */,
+				867A96D127FF8326008C4903 /* CustomizedSlider.swift */,
+			);
+			path = 20220408;
 			sourceTree = "<group>";
 		};
 		8691AB5C27FCFB45009F407D /* 20220406 */ = {
@@ -200,8 +214,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				865AB35C27FBB59A00BB315D /* MainListViewControllerCell.swift in Sources */,
+				867A96D227FF8326008C4903 /* CustomizedSlider.swift in Sources */,
 				865AB36127FBB5DB00BB315D /* PreviewWrapper.swift in Sources */,
 				865AB34527FBB52000BB315D /* AppDelegate.swift in Sources */,
+				867A96D027FF81B9008C4903 /* UISlider01ViewController.swift in Sources */,
 				865AB35F27FBB5C000BB315D /* ViewControllerList.swift in Sources */,
 				8691AB6027FD00F1009F407D /* NSAttributedString02ViewController+AttributesExample.swift in Sources */,
 				865AB36527FBB6C300BB315D /* NSAttributedString01ViewController.swift in Sources */,
